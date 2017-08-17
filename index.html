@@ -57,10 +57,18 @@
 <h2 id="其它使用技巧">
   <a href="#其它使用技巧" class="headerlink" title="其它使用技巧"></a>其它使用技巧</h2>
      
-     <p>我们有时会遇到需要全局 VPN 的情况，比如开 CMD 窗口，或者 git clone 某些被 GFW 墙掉的网址时，必须要全局VPN，否则网址无法访问, CMD 默认是直连的，不走代理，就算用 set 设置了 http/https 代理也没用，而此时只有代理软件上网。那么 <a href="http://www.proxycap.com/" target="_blank" rel="external">proxycap</a> 可以帮到你，目前支持 Windows 和 Mac。此外也可以使用 <a href="https://github.com/rofl0r/proxychains-ng" target="_blank" rel="external">proxychains-ng</a>解决</p>
+     <p>我们有时会遇到需要全局 VPN 的情况，比如开 CMD 窗口，或者 git clone 某些被 GFW 墙掉的网址时，必须要全局VPN，
+       否则网址无法访问, CMD 默认是直连的，不走代理，就算用 set 设置了 http/https 代理也没用，而此时只有代理软件上网。
+       那么 <a href="http://www.proxycap.com/" target="_blank" rel="external">proxycap</a> 可以帮到你，
+       目前支持 Windows 和 Mac。此外也可以使用 <a href="https://github.com/rofl0r/proxychains-ng" target="_blank" rel="external">proxychains-ng</a> 解决</p>
 
-     <p>我自己是：VPS+树莓派。VPS 搭了 Shadowsocks+VPN+Cow，树莓派安装 Shadowsocks 服务和 Cow 作为局域网内的二级代理；树莓派安装 Shadowsocks-libev + chinadns + dnsmasq 作为透明代理用作网关或路由器网关，sslocal 和 ss-redir 监听不同端口可同时使用。可参考 <a href="http://liberize.me/tech/raspberry-pi-transparent-proxy.html" target="_blank" rel="external">树莓派搭建透明代理</a>。使用主力是 Shadowsocks，VPN 备用。<br>Chrome 的代理插件认定 <a href="https://github.com/FelisCatus/SwitchyOmega" target="_blank" rel="external">SwitchyOmega</a></p>
-
+     <p>我自己是：VPS+树莓派。VPS 搭了 Shadowsocks+VPN+Cow，树莓派安装 Shadowsocks 服务和 Cow 作为局域网内的二级代理；
+       树莓派安装 Shadowsocks-libev + chinadns + dnsmasq 作为透明代理用作网关或路由器网关，sslocal 和 ss-redir 监听不同端口可同时使用。
+       可参考 <a href="http://www.jianshu.com/p/05d32b4e8fc0" target="_blank" rel="external">树莓派搭建透明代理</a>。
+       使用主力是 Shadowsocks，VPN 备用。
+       <p>
+       <br>Chrome 的代理插件认定 <a href="https://github.com/FelisCatus/SwitchyOmega" target="_blank" rel="external">SwitchyOmega</a></p>
+      
      <p>以上有些链接需要 FQ, 可以翻了后再看。<br>FQ 基本都需要自己动动手，超级简单、高效、稳定、免费的翻墙服务是没有的，不然 GFW 就变成摆设了，况且 GFW 也是会升级的。</p>
 
         </div>
